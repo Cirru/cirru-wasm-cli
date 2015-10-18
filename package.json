@@ -1,0 +1,39 @@
+{
+  "name": "cirru-wasm-cli",
+  "version": "0.0.1",
+  "description": "Cirru syntax on top of wasm-cli",
+  "main": "lib/index.js",
+  "bin": {
+    "cirru-wasm-cli": "./share/wasm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cirru",
+    "wasm"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "dependencies": {
+    "cirru-wasm-ast": "0.0.2",
+    "jit.js": "^1.17.0",
+    "mmap.js": "^1.0.1",
+    "wasm-ast": "^3.0.1",
+    "wasm-cfg": "^3.0.1",
+    "wasm-jit": "^1.1.2",
+    "yargs": "^3.27.0"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirru/cirru-wasm-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/cirru-wasm-cli/issues"
+  },
+  "homepage": "https://github.com/Cirru/cirru-wasm-cli#readme"
+}
